@@ -15,7 +15,7 @@ type Cursor = {
   y: number;
 };
 
-const socket = io("http://localhost:4000");
+const socket = io("https://collabboard-7d0l.onrender.com");
 
 export default function Home() {
   const [cards, setCards] = useState<Card[]>([]);
